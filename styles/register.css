@@ -1,0 +1,124 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	background-color: darkgray;
+	background-image: url("https://wallpapertag.com/wallpaper/full/7/3/2/154689-cool-coding-background-1920x1280-for-tablet.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.nav-bar {
+	width: 100%;
+	height: 50px;
+	background-color: #131418;
+}
+ul {
+	margin-left: 10px;
+	width: 80px;
+	height: 20px;
+	display: inline-block;
+	background-color: #444857;
+	padding: 5px;
+	text-align: center;
+	border-radius: 2px;
+}
+ul:hover {
+	opacity: 0.95;
+}
+a {
+	text-decoration: none;
+	color: white;
+}
+a:hover {
+	opacity: 0.5;
+}
+#logo {
+	width: 160px;
+	height: 20px;
+	margin-left: 440px;
+}
+#search {
+	margin-left: 20px;
+	width: 200px;
+}
+#submit {
+	background-color: #444857;
+	border-radius: 2px;
+	width: 80px;
+	height: 20px;
+	border: none;
+	color: white;
+}
+.wrapper {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-column-gap: 1em;
+    grid-row-gap: 1em;
+	margin-top: 50px;
+}
+.wrapper > div {
+    background-color: #060606;
+    padding: 16px;
+	margin-left: 20px;
+	margin-right: 40px;
+}
+.wrapper > div:nth-child(even) {
+	text-align: center;
+	height: 50%;
+}
+fieldset {
+	border: none;
+}
+legend {
+	font-weight: bold;
+	color: white;
+}
+label {
+	color: white;
+}
+span {
+	color: red;
+}
+textarea {
+	background-color: #e3e8ef;
+}
+#register {
+	width: 80px;
+	height: 30px;
+	border-radius: 3px;
+	background-color: #47CF73;
+	color: black;
+	font-size: 20px;
+	border: none;
+}
+input[type=text] {
+	background-color: #e3e8ef;
+}
+input[type=email] {
+	background-color: #e3e8ef;
+}
+input[type=password] {
+	background-color: #e3e8ef;
+}
+h2, h4 {
+	color: white;
+}
+#login {
+	background-color: orange;
+	padding: 5px;
+	border: none;
+	width: 70px;
+	font-size: 18px;
+	border-radius: 3px;
+}
+#forgot {
+	margin-right: 110px;
+}
+
+
+
+
+
+
+
+
+

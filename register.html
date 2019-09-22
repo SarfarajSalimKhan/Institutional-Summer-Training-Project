@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Registration</title>
+        <link rel="stylesheet" type="text/css" href="styles/register.css" />
+    </head>
+    <body>
+		<div class="nav-bar">
+			<ul><a href="index.html">Home</a></ul>
+			<ul><a href="about.html">About US</a></ul>
+			<ul><a href="register.html" target="_self">Register</a></ul>
+			<ul><a href="contact.html">Contact Us</a></ul>
+			<ul id="logo"><a href="index.html">The Rising Company</a></ul>
+			<input type="text" name="search" placeholder="Search Here" id="search" />
+			<ul><a><input type="submit" value="Search" id="submit" /></a></ul>
+		</div>
+		<div class="wrapper">
+			<div>
+				<form method="post" action="register.php" id="first_form">
+					<fieldset>
+						<legend align="center"><h2>User Information</h2></legend>
+						<label for="first_name">First Name: <span>*</span></label>
+						<input type="text" name="first_name" id="first_name" autofocus="on" autocomplete="off" required /> <br /> <br />
+						<label for="last_name">Last Name: <span>*</span></label>
+						<input type="text" name="last_name" id="last_name" autocomplete="off" required /> <br /> <br />
+						<label for="gender">Gender:</label>
+						<input type="radio" name="gender" id="male" value="Male" />
+						<label for="male">Male</label>
+						<input type="radio" name="gender" id="female" value="Female" />
+						<label for="female">Female</label> <br /> <br />
+						<label for="interests">Interests:</label>
+						<input type="checkbox" name="sports" id="sports" value="Sports" />
+						<label for="sports">Sports</label>
+						<input type="checkbox" name="studying" id="studying" value="Studying" />
+						<label for="studying">Studying</label>
+						<input type="checkbox" name="coding" id="coding" value="Coding" />
+						<label for="coding">Coding</label>
+						<input type="checkbox" name="singing" id="singing" value="Singing" />
+						<label for="singing">Singing</label>
+						<input type="checkbox" name="dancing" id="dancing" value="Dancing" />
+						<label for="dancing">Dancing</label> <br /> <br />
+						<label for="email">Email: <span>*</span></label>
+						<input type="email" name="email" id="email" autocomplete="off" size="24" required /> <br /> <br />
+						<label for="password">Password: <span>*</span></label>
+						<input type="password" name="password" id="password" required /> <br /> <br />
+						<label for="address">Address:</label> <br />
+						<textarea rows="3" cols="30" name="address"></textarea> <br /> <br />
+						<label for="country">Country:</label>
+						<select name="country">
+							<option selected>India</option>
+							<option>Australia</option>
+							<option>USA</option>
+							<option>Pakistan</option>
+						</select> <br /> <br />
+						<input type="submit" value="Submit" id="register" />
+					</fieldset>
+				</form>
+			</div>
+			<div>
+				<form id="second_form" method="post" action="login.php">
+					<h2>Sign In</h2>
+					<input type="email" name="email" placeholder="Email" size=40 autocomplete="off" required /> <br /> <br />
+					<input type="password" name="password" placeholder="Password" size=40 required /> <br />
+					<a href="#first_form"><h4 id="forgot">Forgot your password?</h4><a>
+					<input type="submit" value="Sign In" id="login" />
+				</form>
+			</div>
+		</div>
+    </body>
+</html>
